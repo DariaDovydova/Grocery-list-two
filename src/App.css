@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+body {
+  background-color: #ed664c;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App {
+  background-color: #fff;
+  min-height: 80vh;
+  width: 400px;
+  margin: 20px auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.crossed {
+  text-decoration: line-through 2px red;
+  background-color: rgb(221, 221, 221);
+}
+
+ul, li {
+  list-style: none;
+  margin: 5px;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  padding: 5px;
+  color: #fff;
+  width: 50px;
+}
+
+.btn-add {
+  background: rgb(233, 233, 85);
+  margin-right: 20px;
+}
+
+.btn-delete {
+  background: #ed664c;
+}
+
+input {
+  flex: 1;
+  font-family: 'Montserrat', sans-serif;
+  margin: 20px;
+  padding: 10px;
 }
